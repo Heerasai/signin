@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Amazon sign in</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(10, 10, 10);
+
+        }
+        .submit {
+                color: rgb(224, 167, 98);
+        }
+        .parent{
+            border: 1px solid black;
+            margin: 3px;
+            padding: 0.5cm;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 8cm;
+            background-color: rgb(245, 243, 241);
+            margin:28vmin;
+            margin-left: auto;
+            margin-right:auto ;
+
+        }
+        .child{
+            border: 1px solid black;
+            margin: 1px;
+            padding: 2px;
+            display: flex;
+            width: 8cm;
+            text-align: center;
+            background-color:azure;
+        }
+        #Amazon{
+            text-align: center;
+        }
+
+
+    </style>
+    <body>
+             <div class="parent">
+
+             <h3 id="Amazon">Amazon</h3>
+             
+             <div class="child">
+             
+                <lable>first name</lable><hr>
+             <input type="text">
+             </div>
+             
+             <div class="child">
+             <lable>lastname</lable><hr>
+             <input type="text">
+             </div>
+             
+             <div class="child">
+                <lable>gender</lable>
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female
+                <input type="radio" name="gender">other
+             
+            </div>
+            
+            <div class="child">
+                <lable>phone number</lable><hr>
+                <input type="tel">
+             </div>
+            
+             <div class="child">
+                <lable>email id</lable><hr>
+                <input type="email" >
+             </div>
+
+             <div class="submit">
+                
+                <a href="./signin.html"><input type="submit" value="signin"></a>
+            </div>
+             <p>By continuing, you agree to Amazon's 
+                conditions of use and privacy notice.
+             </p>
+            </div>
+             
+    </body>
+</html>
